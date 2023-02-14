@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ec0d55-c376-41ff-aef6-57e754c1f337" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/lesson4/tasks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/tasks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/tasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,8 @@
       <workItem from="1676108896360" duration="10000" />
       <workItem from="1676295079460" duration="4415000" />
       <workItem from="1676309216005" duration="1719000" />
-      <workItem from="1676359726062" duration="1629000" />
+      <workItem from="1676359726062" duration="1690000" />
+      <workItem from="1676362681899" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1675190026141</created>
@@ -89,11 +90,29 @@
       <option name="project" value="LOCAL" />
       <updated>1675849033374</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1676361417294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676361417294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
