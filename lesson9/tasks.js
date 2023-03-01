@@ -225,7 +225,21 @@ button.onclick = () => {
     id.style.display = `none`;
 }
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-//
+let block = document.createElement(`div`);
+document.body.appendChild(block);
+block.style.margin = `50px`;
+let input = document.createElement(`input`);
+input.setAttribute('type','number' );
+let button1 = document.createElement('button');
+button1.innerText = 'CLICK';
+button1.onclick = () => {
+  if (input.value < 18) {
+    console.log('ви неповнолітній')
+  } else {
+      console.log(`ви повнолітній`)
+  }
+}
+block.append(input, button1);
 // *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
