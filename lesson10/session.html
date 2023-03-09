@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Session</title>
+</head>
+<body>
+<!--Є сторінка index.html (назва довільна), при відвідуванні якої в локальне сховще, в масив sessions зберігається
+інформація про дату та час відвідування сторінки. Є ще сторінка sessions.html (назва довільна), при відвідуванні якої
+потрібно відмалювати всю інформацію про відвідування сторінки index.html. Інфу НЕ виводити в консоль, а побудувати дом
+структуру під кожну сессію-->
+<script>
+    let sessions = JSON.parse(localStorage.sessions);
+    let sessionList = document.createElement('div');
+    for (let i = 0; i < sessions.length; i++) {
+        let sessionDate = new Date(sessions[i]);
+        let sessionItem = document.createElement('li');
+        sessionItem.innerHTML = sessionDate.toLocaleString();
+        document.body.append(sessionList);
+        sessionList.append(sessionItem);
+    }
+</script>
+</body>
+</html>

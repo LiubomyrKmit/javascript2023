@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+        }
+    </style>
+</head>
+<body>
+<form name="f1">
+    <input
+            type="text"
+            placeholder="enter your name"
+            name="name"
+    >
+    <br>
+    <input
+            type="text"
+            placeholder="enter your surname"
+            name="surname"
+    >
+    <br>
+    <input
+            type="number"
+            placeholder="enter your age"
+            name="age"
+            min="1"
+    >
+    <br>
+    <button name="button1">CLICK</button>
+    <div><h1> Count: <i id="counter"></i></h1></div>
+</form>
+<script src="tasks.js"></script>
+</body>
+</html>

@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ec0d55-c376-41ff-aef6-57e754c1f337" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/lesson10/arrays100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/arrays100.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/session.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/tasks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10/tasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/tasks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -23,11 +29,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -83,7 +89,10 @@
       <workItem from="1676671927946" duration="22306000" />
       <workItem from="1677253967078" duration="6094000" />
       <workItem from="1677616477779" duration="8235000" />
-      <workItem from="1677709140484" duration="1344000" />
+      <workItem from="1677709140484" duration="1856000" />
+      <workItem from="1678037263684" duration="26000" />
+      <workItem from="1678037813320" duration="6000" />
+      <workItem from="1678119454280" duration="15989000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1675190026141</created>
@@ -141,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677696223132</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1">
+      <created>1677710661443</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677710661443</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
